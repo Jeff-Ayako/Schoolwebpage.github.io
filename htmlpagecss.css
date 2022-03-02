@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#075E54;
+    text-align: center;
+    /* position: fixed; */
+}
+.logo-image{
+    width: 80;
+    height: 80;
+}
+.title-name{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+.nav-footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: #777;
+    color: white;
+    /* position: fixed; */
+}
+.nav-footer ul a{
+    text-decoration: none;
+}
+
+.nav-footer ul a li h3{
+    width: calc((100%/3));
+    height: 30px;
+    /* background-color: #777;  */
+    list-style: none;
+    text-decoration: none;
+    /* padding: 5px; */
+    transition: .1s;
+    color: white;
+
+}
+.nav-footer ul a li h3:hover{
+    /* background-color: #aaa; */
+    /* color: white; */
+    width: calc(100%/4);
+    letter-spacing: 2px;
+    height: 30px;
+    
+}
+.Course-content{
+    position: absolute;
+    /* display: none; */
+    height: 100%;
+    width: calc(100%/4);
+    background-color: #075E54;
+    /* z-index: 2; */
+    /* position: fixed; */
+}
+.Course-content li{
+    color: white;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 10px;
+    transition: .5s;
+    /* text-align: center; */
+}
+.Course-content li p{
+    transition: .5s;
+
+}
+.Course-content li p:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-bottom: 2px, solid green ;
+    width: 100%/4;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: green;
+    /* text-align: center; */
+}
+/* .Content-view-port{
+   
+} */
+
+.HTML-content{
+    /* padding: 0%;
+    margin: 0; */
+    max-width: calc(75%);
+
+    position: absolute;
+    left: calc(100%/4);
+    /* transform: translate(0,50%); */
+    height: calc(100%/5);
+    /* background-color: #aaa; */
+    width: 100%;
+    /* white-space: initial; */
+  padding-bottom: 40px;
+    word-wrap: break-word
+}
+.HTML-content div{
+    max-width: calc(75%);
+    padding-bottom: 30px;
+    /* white-space: initial; */
+    word-wrap: break-word
+}
+.HTML-content div img{
+    height: 40vh;
+    width: 75%;
+}
