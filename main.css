@@ -140,7 +140,7 @@
         height: 40px;
     }
     .login-bar{
-        width: calc(400px);
+        width: calc(350px);
         height: calc(100%/2);
         /* background-color: #075E54; */
         background-color: orangered;
