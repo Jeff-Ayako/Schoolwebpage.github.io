@@ -133,7 +133,7 @@
 }
 @media all  and (max-width:500px) {
     .title-name{
-        font-size: 7px;
+        font-size: 6px;
     }
     .logo-image{
         width: 40px;
