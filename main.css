@@ -140,7 +140,7 @@
         height: 40px;
     }
     .login-bar{
-        width: calc(100%/1.8);
+        width: calc(450px);
         height: calc(100%/2);
         /* background-color: #075E54; */
         background-color: orangered;
@@ -159,8 +159,36 @@
     
     }
     .html-image img{
+        width: 200px;
+        height: 200px;
+    }
+    .input-details li h1{
+        font-size: 10px;
+    }
+    .input-details li h2{
+        font-size: 10px;
+    }
+    .submit{
+        padding-top: 20px;
+        margin-top: 20px;
+        /* position: absolute; */
+        position: relative;
+        /* top: 50%;
+        left: 50%; */
+        /* transform: translate(-50%, -50%); */
         width: 100px;
-        height: 100px;
+        height: 40px;
+    
+        background-color: white;
+        text-align: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* animation-duration: 1s; */
+        transition: .5s;
+    
     }
     
 
