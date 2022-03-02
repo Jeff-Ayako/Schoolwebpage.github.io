@@ -124,3 +124,45 @@
     height: 40vh;
     width: 75%;
 }
+@media all  and (max-width:500px) {
+
+    .logo-image{
+        width: 80px;
+        height: 80px;
+    }
+    .title-name{
+        /* position: absolute; */
+        font-size: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        /* top: 0%; */
+    }
+    /* .Content-view-port{
+        display: none;
+    } */
+
+    .Course-content{
+        display: none;
+    }
+    .HTML-content{
+        /* padding: 0%;
+        margin: 0; */
+        max-width: calc(100%);
+    
+        /* position: absolute; */
+        position: relative;
+        left: 0px;
+        /* left: calc(100%/4); */
+        /* transform: translate(0,50%); */
+        height: calc(100%/5);
+        /* background-color: #aaa; */
+        width: 100%;
+        /* white-space: initial; */
+      padding-bottom: 40px;
+        word-wrap: break-word
+    }
+}
