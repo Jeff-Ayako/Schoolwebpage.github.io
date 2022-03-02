@@ -133,7 +133,7 @@
 }
 @media all  and (max-width:500px) {
     .title-name{
-        font-size: 8px;
+        font-size: 7px;
     }
     .logo-image{
         width: 40px;
@@ -189,6 +189,9 @@
         /* animation-duration: 1s; */
         transition: .5s;
     
+    }
+    .btn-html{
+        font-size: 10px;
     }
     
 
