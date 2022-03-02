@@ -133,7 +133,15 @@
 }
 @media all  and (max-width:500px) {
     .title-name{
+        /* position: absolute; */
         font-size: 6px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        /* top: 0%; */
     }
     .logo-image{
         width: 40px;
@@ -192,6 +200,9 @@
     }
     .btn-html{
         font-size: 10px;
+    }
+    .dark-theme{
+        display: none;
     }
     
 
