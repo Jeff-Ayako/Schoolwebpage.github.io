@@ -149,7 +149,7 @@
     }
     .login-bar{
         width: calc(350px);
-        height: calc(100%/2);
+        height: calc(100%/1.4);
         /* background-color: #075E54; */
         background-color: orangered;
         justify-content: center;
@@ -171,7 +171,7 @@
         height: 200px;
     }
     .input-details li h1{
-        font-size: 10px;
+        font-size: 12px;
     }
     .input-details li h2{
         font-size: 10px;
@@ -184,7 +184,7 @@
         /* top: 50%;
         left: 50%; */
         /* transform: translate(-50%, -50%); */
-        width: 100px;
+        width: 120px;
         height: 40px;
     
         background-color: white;
@@ -197,6 +197,10 @@
         /* animation-duration: 1s; */
         transition: .5s;
     
+    }
+    .submit:hover{
+    
+        letter-spacing: 1px;
     }
     .btn-html{
         font-size: 10px;

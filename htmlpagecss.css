@@ -178,5 +178,19 @@
     h1{
         left: 0px;
     }
+    /* .Course-content{
+        display: block;
+        z-index: 10;
+        width: 100%/2;
+    } */
+    .Content-view-port{
+        width: 100%/3;
+    }
+    .Course-content ul li h1{
+        font-size: 10px;
+    }
+    /* .HTML-content h1{
+        font-size: 5px;
+    } */
 
 }
