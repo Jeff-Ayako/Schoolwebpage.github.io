@@ -36,6 +36,7 @@
     margin-right: 15px;
     font-size: 15px;
     float: right;
+    /* margin-left: 10px; */
 }
 .title-name ul{
     position: relative;
@@ -64,7 +65,7 @@
      padding-right: 100px;
      /* margin: 20px; */
      /* margin-right: 10px; */
-     padding: 5px;
+     /* padding: 5px; */
 
 
 
