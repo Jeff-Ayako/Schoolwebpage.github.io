@@ -20,7 +20,29 @@
 
         </div>
         <div class="title-name">
-            <H1>AMERICAN International school</H1>
+            <!-- <H1>AMERICAN International school</H1> -->
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <H3>Home</H3>
+                    </a>
+                </li>
+                <li>
+                    <a href="homepage.html">
+                        <H3>HTML</H3>
+                    </a>
+                </li>
+                <li>
+                    <a href="Css-page.html">
+                        <H3>CSS</H3>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascriptpage.html">
+                        <H3>JS</H3>
+                    </a>
+                </li>
+            </ul>
 
         </div>
 
@@ -77,34 +99,51 @@
     <div class="Content-view-port">
         <section class="Course-content">
             <ul>
-                <li>
-                    <h2>CSS Tutorial</h2>
-                </li>
+                <a href="#CSS-Tutorial">
+                    <li>
+                        <h2>CSS Tutorial</h2>
+                    </li>
+                </a>
+                
             </ul>
             <ul>
+                <a href="#CSS-Syntax"></a>
                 <li>
                     <p>CSS Syntax</p>
                 </li>
             </ul>
             <ul>
-                <li>
-                    <p>CSS Selectors</p>
-                </li>
+                <a href="#CSS-Selectors">
+                    <li>
+                        <p>CSS Selectors</p>
+                    </li>
+
+                </a>
+                
             </ul>
             <ul>
-                <li>
-                    <p>CSS How To</p>
-                </li>
+                <a href="#CSS-How-To">
+                    <li>
+                        <p>CSS How To</p>
+                    </li>
+                </a>
+                
             </ul>
             <ul>
-                <li>
-                    <p>CSS Borders</p>
-                </li>
+                <a href="#CSS-Borders">
+                    <li>
+                        <p>CSS Borders</p>
+                    </li>
+                </a>
+                
             </ul>
             <ul>
-                <li>
-                    <p>CSS Margins</p>
-                </li>
+                <a href="CSS-Margins">
+                    <li>
+                        <p>CSS Margins</p>
+                    </li>
+                </a>
+                
             </ul>
             <ul>
                 <li>
@@ -162,7 +201,7 @@
 
         </section>
         <section class="HTML-content">
-            <h1>
+            <h1 id="CSS-Tutorial">
                 CSS Tutorial
             </h1>
             <hr>
@@ -185,6 +224,95 @@
                 <div>With our online editor, you can edit the CSS, and click on a button to view the result.</div>
                 <img src="assets/css.png" alt="">
                 <p>HTML is easy to learn - You will enjoy it!</p>
+
+
+
+            </div>
+            <div id="CSS-Syntax">
+                <h1>CSS Syntax</h1>
+                <!-- <hr>
+                <hr> -->
+                <p>A CSS rule consists of a selector and a declaration block.</p>
+                <img src="assets/csssector.png" alt="">
+                <div>The selector points to the HTML element you want to style.</div>
+                <p>The declaration block contains one or more declarations separated by semicolons.</p>
+                <p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+                <img src="assets/css.png" alt="">
+                <p>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+
+
+
+            </div>
+            <div id="CSS-Selectors">
+                <h1>CSS Selectors</h1>
+                <!-- <hr>
+                <hr> -->
+                <p>A CSS selector selects the HTML element(s) you want to style.</p>
+                <img src="assets/csssector.png" alt="">
+                <h3>CSS Selectors</h3>
+                <div>CSS selectors are used to "find" (or select) the HTML elements you want to style.</div>
+                <p>We can divide CSS selectors into five categories:</p>
+                <p>Simple selectors (select elements based on name, id, class) <br>
+                    Combinator selectors (select elements based on a specific relationship between them) <br>
+                    Pseudo-class selectors (select elements based on a certain state) <br>
+                    Pseudo-elements selectors (select and style a part of an element) <br>
+                    Attribute selectors (select elements based on an attribute or attribute value) <br>
+                    This page will explain the most basic CSS selectors.</p>
+                <img src="assets/css.png" alt="">
+                <p>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+
+
+
+            </div>
+            <div id="CSS-How-To">
+                <h1>How To Add CSS</h1>
+                <!-- <hr>
+                <hr> -->
+                <p>When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.</p>
+                <img src="assets/csssector.png" alt="">
+                <h3>Three Ways to Insert CSS</h3>
+                <div>There are three ways of inserting a style sheet: <br>
+                    External CSS <br>
+                    Internal CSS <br>
+                    Inline CSS</div>
+                <h2><p>External CSS:</p></h2>
+                <p>With an external style sheet, you can change the look of an entire website by changing just one file! <br>
+
+                    Each HTML page must include a reference to the external style sheet file inside the  element, inside the head section..</p>
+                <img src="assets/cssexample.png" alt="">
+                <p>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+
+
+
+            </div>
+            <div id="CSS-Borders">
+                <h1>CSS Borders</h1>
+                <!-- <hr>
+                <hr> -->
+                <p>The CSS border properties allow you to specify the style, width, and color of an element's border..</p>
+                <img src="assets/csssector.png" alt="">
+                <h3>CSS Border Style</h3>
+                <div>The border-style property specifies what kind of border to display. <br>
+
+                    The following values are allowed: <br>
+                    
+                    dotted - Defines a dotted border <br>
+                    dashed - Defines a dashed border <br>
+                    solid - Defines a solid border <br>
+                    double - Defines a double border <br>
+                    groove - Defines a 3D grooved border. The effect depends on the border-color value <br>
+                    ridge - Defines a 3D ridged border. The effect depends on the border-color value <br>
+                    inset - Defines a 3D inset border. The effect depends on the border-color value <br>
+                    outset - Defines a 3D outset border. The effect depends on the border-color value <br>
+                    none - Defines no border <br>
+                    hidden - Defines a hidden border <br>
+                    The border-style property can have from one to four values  <br>  (for the top border, right border, bottom border, and the left border).</div>
+                <h2><p>External CSS:</p></h2>
+                <p>With an external style sheet, you can change the look of an entire website by changing just one file! <br>
+
+                    Each HTML page must include a reference to the external style sheet file inside the  element, inside the head section..</p>
+                <img src="assets/cssexample.png" alt="">
+                <p>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
 
 
 
