@@ -191,6 +191,7 @@
 
     position: absolute;
     left: calc(100%/4);
+    right: 10px;
     /* transform: translate(0,50%); */
     height: calc(100%/5);
     /* background-color: #aaa; */
@@ -200,7 +201,7 @@
     word-wrap: break-word;
 }
 .HTML-content div{
-    max-width: calc(75%);
+    max-width: calc(100%);
     padding-bottom: 30px;
     /* white-space: initial; */
     word-wrap: break-word
