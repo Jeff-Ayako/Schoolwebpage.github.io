@@ -22,7 +22,7 @@
 .logo-image{
     width: 80;
     height: 80;
-    display: none;
+    /* display: none; */
 }
 /* .title-name{
     color: white;
@@ -227,6 +227,7 @@
     .logo-image{
         width: 80px;
         height: 80px;
+        display: none;
     }
     .title-bar{
         position: fixed;
