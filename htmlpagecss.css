@@ -6,6 +6,9 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .title-bar{
     display: flex;

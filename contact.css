@@ -42,7 +42,7 @@
     width: calc(100%/1.8);
     height: calc(100%/2);
     /* background-color: #075E54; */
-    background-color: orangered;
+    background-color: #075E54;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -154,7 +154,7 @@
         width: calc(350px);
         height: calc(100%/1.4);
         /* background-color: #075E54; */
-        background-color: orangered;
+        background-color:#075E54;
         justify-content: center;
         align-items: center;
         position: absolute;
