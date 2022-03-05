@@ -139,16 +139,22 @@ html{
     
 }
 .Course-content{
-    position: absolute;
+    /* position: absolute; */
     /* display: none; */
+
+    /* position: relative; */
     height: 100%;
     width: calc(100%/4);
     background-color: #075E54;
     /* z-index: 2; */
     position: fixed;
     padding-top: 100px;
+    bottom: 0;
 }
 .Course-content li{
+    /* position: absolute;
+    display: flex;
+    flex-direction: column; */
     overflow-y: scroll;
     overflow: hidden;
 
