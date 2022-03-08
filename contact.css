@@ -45,6 +45,7 @@
     background-color: #075E54;
     justify-content: center;
     align-items: center;
+    /* position: absolute; */
     position: absolute;
     left: 50%;
     top: 50%;
@@ -57,6 +58,15 @@
     /* align-items: center; */
 
 }
+/* .login-bar ul{
+    position: relative;
+    right: 50%;
+    top: 40%;
+    justify-content: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+} */
 .input-details{
     /* padding: 10px; */
     position: absolute;
@@ -124,13 +134,16 @@
     /* left: 0px; */
     position: absolute;
     right: 20px;
+    background-color: white;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
    
 }
 #email-bar{
     text-transform: lowercase;
 }
 .html-image img{
-    height: 250px;
+    height:250px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -169,9 +182,10 @@
         /* align-items: center; */
     
     }
+    
     .html-image img{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        /* height: 200px; */
     }
     .input-details li h1{
         font-size: 12px;
